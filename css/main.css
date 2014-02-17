@@ -4,22 +4,25 @@ body{
 	line-height: 1.5;
 	width: 790px;
 	margin: 0 auto;
-
-	
-
+	background-image: url(../images/background.png);
+	background: opacity 50%;
 }
 
-.header{
-	width: 790px;
-	height: 600px;
+header{
+	height: 100px;
+	background-color: white;
 	border-width: 3px;
-	border-style: soild;
+	border-style: dashed;
 	border-color: #666;
 	padding: 10px
+	overflow: hidden;
+	padding-bottom: 10px;
 	}
 	
 #nav{
-	
+	float: right;
+	overflow: hidden;
+	display: block;
 }
 
 
@@ -40,15 +43,17 @@ body{
 	background: silver;
 	float: left;
 	
+	
 }
 
 .movie{
+	background-color: white;
 	padding: 10px;
-	background-color: #999;
 	border-width: 3px;
 	border-style: dashed;
 	border-color: #666;
 	margin-bottom: 10px
+
 }
 
 
@@ -59,11 +64,35 @@ body{
 article{
 	-moz-column-count: 3;
 	-moz-column-gap: 25px;
-	padding: 10px;
-	background-color: #999;
+	background-color: white;
+	padding-top: 10px;
 	border-width: 3px;
 	border-style: dashed;
 	border-color: #666;
+	clear: bottom;
+	padding: 20px;
+}
+
+#gallery{
+	
+	background-color: white;
+	border: 3px dashed #666;
+	overflow: hidden;
+	padding-left: 10px;
+	
+}
+
+#gallery ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#gallery li{
+	
+	float: left;
+	padding: 20px;
+	
+	
 }
 
 
@@ -75,7 +104,7 @@ article{
 
 
 footer{
-	background: #666;
+	
 	
 }
 
