@@ -12,16 +12,18 @@ body{
 .header{
 	width: 790px;
 	height: 600px;
-	background-image: url("../images/RedCurtain.jpg");
-	background-repeat: repeat-x; 
-	background-position:  top center;
-	
 	border-width: 3px;
 	border-style: soild;
 	border-color: #666;
 	padding: 10px
 	}
 	
+#nav{
+	
+}
+
+
+
 
 #nav ul {
 	width: 500px;
@@ -39,6 +41,38 @@ body{
 	float: left;
 	
 }
+
+.movie{
+	padding: 10px;
+	background-color: #999;
+	border-width: 3px;
+	border-style: dashed;
+	border-color: #666;
+	margin-bottom: 10px
+}
+
+
+
+
+
+
+article{
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	padding: 10px;
+	background-color: #999;
+	border-width: 3px;
+	border-style: dashed;
+	border-color: #666;
+}
+
+
+
+
+
+
+
+
 
 footer{
 	background: #666;
