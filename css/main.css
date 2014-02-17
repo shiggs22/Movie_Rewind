@@ -1,0 +1,50 @@
+body{
+	font-family: "Helvetica Neue", Arial, Helvetica, Sans-Serif;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 790px;
+	margin: 0 auto;
+
+	
+
+}
+
+.header{
+	width: 790px;
+	height: 600px;
+	background-image: url("../images/RedCurtain.jpg");
+	background-repeat: repeat-x; 
+	background-position:  top center;
+	
+	border-width: 3px;
+	border-style: soild;
+	border-color: #666;
+	padding: 10px
+	}
+	
+
+#nav ul {
+	width: 500px;
+	margin: 0 auto;
+	background: #666;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+#nav li{
+	width: 100px;
+	background: silver;
+	float: left;
+	
+}
+
+footer{
+	background: #666;
+	
+}
+
+	
+	
+
