@@ -96,6 +96,14 @@ article{
 article p{
 	-moz-column-count: 3;
 	-moz-column-gap: 25px;
+	-ms-column-count: 3;
+	-ms-column-gap: 25px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 25px;
+	-o-column-count: 3;
+	-o-column-gap: 25px;
+	column-count: 3;
+	column-gap: 25px;
 }
 
 #gallery{
